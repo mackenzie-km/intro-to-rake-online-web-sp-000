@@ -19,7 +19,7 @@ task :console => :environment do
   Pry.start
 end
 
-namesapce :db do
+namespace :db do
   desc 'migrates the database'
   task :migrate => :environment do
     Students.create_table
