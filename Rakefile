@@ -22,7 +22,7 @@ end
 namespace :db do
   desc 'migrates the database'
   task :migrate => :environment do
-    Students.create_table
+    Student.create_table
   end
   desc 'seeds the database with dummy data for testing'
   task :seed do
