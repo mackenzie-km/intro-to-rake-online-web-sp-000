@@ -17,12 +17,12 @@ end
 desc 'drop into the Pry console'
 task :console => :environment do
   Pry.start
-end 
-
-namesapce :db do
-
-desc ''
-
-desc ''
-
 end
+
+# namesapce :db do
+#
+# desc ''
+#
+# desc ''
+# 
+# end
