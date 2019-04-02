@@ -21,11 +21,11 @@ end
 
 namesapce :db do
   desc 'migrates the database'
-  task :migrate => :environment do 
+  task :migrate => :environment do
     Students.create_table
-  end 
+  end
   desc 'seeds the database with dummy data for testing'
   task :seed do
     require_relative './db/seeds.rb'
-  end 
+  end
 end
